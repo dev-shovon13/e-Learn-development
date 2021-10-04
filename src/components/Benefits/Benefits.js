@@ -4,6 +4,8 @@ import benefit1 from '../../images/benefit-1.png'
 import benefit2 from '../../images/benefit-2.png'
 import benefit3 from '../../images/benefit-3.png'
 
+// this is the benefit page 
+
 const Benefits = () => {
     return (
         <div className="benefit-bg pb-5">
@@ -13,6 +15,7 @@ const Benefits = () => {
                 <h1>How does it works ?</h1>
                 <p className="w-75 mx-auto fs-5 fw-light">Are you looking to join online institutions? Now it's very simple, Sign up with mentoring</p>
                 <div className="mt-5">
+                    {/* card section start*/}
                     <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 text-dark g-4">
                         <div className="col">
                             <div class="card h-100  p-3 bg-white rounded ">
@@ -36,6 +39,7 @@ const Benefits = () => {
                             </div>
                         </div>
                     </div>
+                    {/* card section end*/}
                 </div>
             </div>
         </div>

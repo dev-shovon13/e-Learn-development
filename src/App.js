@@ -1,4 +1,3 @@
-import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
@@ -8,10 +7,12 @@ import Services from './components/Services/Services';
 import Mentors from './components/Mentors/Mentors';
 import About from './components/About/About';
 import Benefits from './components/Benefits/Benefits';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
+      {/* setting up React Router  */}
       <Router>
         <Header />
         <Switch>

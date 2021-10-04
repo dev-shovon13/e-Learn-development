@@ -1,15 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import Service from '../Service/Service';
-import "./Services.css"
 
 const Services = () => {
+    // rendering data into UI 
     const [services, setServices] = useState([])
+
+    // loading data from local json file 
     useEffect(() => {
         fetch('./courses.json')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
     return (
+        // services page 
         <div className="container mb-5">
             <div className="margin-top-nav"></div>
             <h1 className="text-secondary">Our <span className="text-info">Services</span></h1>

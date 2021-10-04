@@ -1,10 +1,12 @@
 /* google fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
+/* margin for the contents as i've made the navbar fixed */
 .margin-top-nav{
     height: 70px;
 }
 
+/* setting up background image  */
 .bg{
      background-image: linear-gradient(rgba(0, 0, 0, 0.450), rgba(0, 0, 0, 0.450)),url("../../images/bg-1.jpg");
     background-repeat: no-repeat;
@@ -46,6 +48,8 @@
     border-radius: 20px;
 }
 
+
+/* using some media query  */
 @media (max-width:767px) {
 .title{
     font-size: 32px;
@@ -53,7 +57,7 @@
     line-height: 40px;
 }
 .bg{
-    height: 560px;
+    height: 650px;
 }
 .sub-heading-bg, .services-subheading{
     width: 90% !important;

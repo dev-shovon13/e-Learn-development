@@ -2,8 +2,10 @@ import React from 'react';
 import './Service.css'
 
 const Service = (props) => {
+    // destructuring props 
     const { name, img, price, oldprice, duration } = props.service
     return (
+        // service card 
         <div class="col">
             <div class="card h-100 bg-light">
                 <img src={img} class="card-img-top img-fluid card-image" alt="..." />

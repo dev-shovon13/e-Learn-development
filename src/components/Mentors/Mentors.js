@@ -3,13 +3,17 @@ import Mentor from '../Mentor/Mentor';
 import './Mentors.css'
 
 const Mentors = () => {
+    // rendering data into UI 
     const [mentors, setMentors] = useState([])
+
+    // loading data from local json file 
     useEffect(() => {
         fetch('./mentors.json')
             .then(res => res.json())
             .then(data => setMentors(data))
     }, [])
     return (
+        // mentor page 
         <div className="mentor-bg pb-5">
             <div className="margin-top-nav"></div>
             <div className="container ">

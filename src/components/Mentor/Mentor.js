@@ -2,8 +2,10 @@ import React from 'react';
 import './Mentor.css'
 
 const Mentor = (props) => {
+    // destructuring props 
     const { name, instructor, img, price, location } = props.mentor
     return (
+        // mentor card 
         <div className="col">
             <div className="card h-100 bg-light">
                 <div className="row align-items-center">
@@ -15,7 +17,6 @@ const Mentor = (props) => {
                         <p className="my-0 text-secondary"><span className="fw-bold">Instructor: </span>{instructor}</p>
                         <p className="my-0 text-secondary"><span className="fw-bold">Location: </span>{location}</p>
                         <p className="my-0 text-secondary"><span className="fw-bold">Charge: </span><span className="text-warning fw-bold">$</span>{price} /hr.</p>
-
                     </div>
                 </div>
             </div>

@@ -3,6 +3,9 @@ import { NavLink } from 'react-router-dom';
 import logo from '../../images/logo.png'
 import './Header.css'
 
+// this is the navbar page
+// I've used NavLink to link pages
+
 const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
