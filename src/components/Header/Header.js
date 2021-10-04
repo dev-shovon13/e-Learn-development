@@ -7,6 +7,9 @@ import './Header.css'
 // I've used NavLink to link pages
 
 const Header = () => {
+    const clickHandle = event => {
+        event.preventDefault()
+    }
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div className="container">
@@ -40,7 +43,7 @@ const Header = () => {
                     </ul>
                     <form className="d-flex">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-outline-info" type="submit">Search</button>
+                        <button className="btn btn-outline-info" onClick={clickHandle}>Search</button>
                     </form>
                 </div>
             </div>
