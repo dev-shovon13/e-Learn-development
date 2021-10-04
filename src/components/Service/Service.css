@@ -1,0 +1,11 @@
+.card-image{
+    height: 220px;
+    border-bottom: 1px solid lightgray;
+}
+.card{
+    transition: all 1s;
+}
+.card:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
