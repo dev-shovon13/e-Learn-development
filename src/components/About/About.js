@@ -10,7 +10,7 @@ const About = () => {
             <div className="container">
                 <div className="margin-top-nav"></div>
                 <h1>About <span className="text-info fw-bold"><span className="bg-info text-white pb-2 px-3 rounded-circle">e</span>-Learn</span></h1>
-                <p className="w-50 mx-auto fs-5 text-secondary about-subheading">Welcome to e-Learn collection of world-class online learning opportunities. The e-Learn Online Learning portal provides a gateway for the public to access</p>
+                <p className="w-50 mx-auto mt-4 fs-5 text-secondary about-subheading">Welcome to e-Learn collection of world-class online learning opportunities. The e-Learn Online Learning portal provides a gateway for the public to access</p>
 
                 {/* card section start  */}
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-4">

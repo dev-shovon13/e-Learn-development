@@ -8,6 +8,8 @@ import Mentors from './components/Mentors/Mentors';
 import About from './components/About/About';
 import Benefits from './components/Benefits/Benefits';
 import './App.css';
+import SignUp from './components/SignUp/SignUp';
+import LogIn from './components/LogIn/LogIn';
 
 function App() {
   return (
@@ -18,6 +20,12 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route exact path="/signup">
+            <SignUp />
+          </Route>
+          <Route exact path="/login">
+            <LogIn />
           </Route>
           <Route exact path="/home">
             <Home />

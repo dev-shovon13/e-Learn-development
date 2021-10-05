@@ -60,13 +60,13 @@
 .bg{
     height: 650px;
 }
-.sub-heading-bg, .services-subheading{
+.sub-heading-bg, .services-subheading, .log-sign{
     width: 90% !important;
 }
 .services-subheading, .about-subheading{
     width: 90% !important;
     padding: 0 !important;
-} 
+}
 }
 @media (min-width:768px) and (max-width:1023px ) {
 .title{
