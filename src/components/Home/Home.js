@@ -15,10 +15,10 @@ const Home = () => {
         <div>
             <div className="bg">
                 <div className="margin-top-nav"></div>
-                <div className="w-75 mx-auto py-5  text-white">
+                <div className="w-75 mx-auto py-5 top-section text-white">
                     <h1 className="title">Search Teacher in <span className="text-info">Mentoring Appointment</span></h1>
                     <p className="subtitle">Discover the best Mentors & institutions the city nearest to you.</p>
-                    <div className="my-5 grid row align-items-center justify-content-between w-75 mx-auto">
+                    <div className="my-5 grid row align-items-center justify-content-between w-75 mx-auto top-search">
                         <div className="mb-3 col-md-4 input-container">
                             <img src={location} alt="" className="input-img" />
                             <input type="text" className="form-control title-input" placeholder="Search Location" />
@@ -27,7 +27,7 @@ const Home = () => {
                             <img src={institute} alt="" className="input-img img-2" />
                             <input type="text" className="form-control title-input" placeholder="Search Schools, Online Educational Centers, etc" />
                         </div>
-                        <button className=" btn btn-primary col-md-1 mb-3 py-2 title-btn">
+                        <button className=" btn btn-primary col-md-1 mb-3 py-2 title-btn mx-auto">
                             <FontAwesomeIcon className="fasicon" icon={faSearch} />
                         </button>
                     </div>

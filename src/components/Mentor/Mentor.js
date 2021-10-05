@@ -7,7 +7,7 @@ const Mentor = (props) => {
     return (
         // mentor card 
         <div className="col">
-            <div className="card h-100 bg-light">
+            <div className="card h-100 bg-light mx-2 mx-md-0">
                 <div className="row align-items-center">
                     <div className="col-4">
                         <img src={img} alt="" className="rounded-circle mentor-img p-2" />

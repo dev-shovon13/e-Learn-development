@@ -52,6 +52,17 @@
 
 
 /* using some media query  */
+@media (max-width:576px) {
+.service-card, .benefit-card{
+    width: 75% !important;
+}
+.top-search{
+    width: 100% !important;
+}
+.title-btn{
+    width: 93% !important;
+}
+}
 @media (max-width:767px) {
 .title{
     font-size: 32px;
