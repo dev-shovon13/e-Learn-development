@@ -8,7 +8,6 @@ import Mentors from './components/Mentors/Mentors';
 import About from './components/About/About';
 import Benefits from './components/Benefits/Benefits';
 import './App.css';
-import SingleService from './components/SingleService/SingleService';
 
 function App() {
   return (
@@ -25,9 +24,6 @@ function App() {
           </Route>
           <Route exact path="/services">
             <Services />
-          </Route>
-          <Route exact path="/services/:serviceID">
-            <SingleService />
           </Route>
           <Route exact path="/mentors">
             <Mentors />
