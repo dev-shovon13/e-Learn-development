@@ -8,7 +8,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top border-bottom border-2 shadow-sm">
             <div className="container">
                 <NavLink activeStyle={{ color: 'red', fontWeight: 'bold' }} to="/home" >
                     <img src={logo} alt="" className="logo" /></NavLink>
@@ -18,7 +18,7 @@ const Header = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <NavLink activeStyle={{ color: 'red', fontWeight: 'bold' }} to="/home" className="nav-link active" aria-current="page" >Home</NavLink>
+                            <NavLink activeStyle={{ color: 'red', fontWeight: 'bold' }} to="/home" className="nav-link" aria-current="page" >Home</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink activeStyle={{ color: 'red', fontWeight: 'bold' }} to="/services" className="nav-link" aria-current="page" >Services</NavLink>

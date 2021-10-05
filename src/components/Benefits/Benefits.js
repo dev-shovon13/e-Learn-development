@@ -10,7 +10,7 @@ const Benefits = () => {
     return (
         <div className="benefit-bg pb-5">
             <div className="margin-top-nav"></div>
-            <div className="container text-white">
+            <div className="container text-white pb-5">
                 <p className="fs-4 fw-light">MENTORING FLOW</p>
                 <h1>How does it works ?</h1>
                 <p className="w-75 mx-auto fs-5 fw-light">Are you looking to join online institutions? Now it's very simple, Sign up with mentoring</p>

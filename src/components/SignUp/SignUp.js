@@ -36,7 +36,7 @@ const SignUp = () => {
                             </div>
                             <div className="mb-3 form-check text-start">
                                 <input type="checkbox" className="form-check-input" />
-                                <label className="form-check-label text-secondary">I accept the <span className="text-info">Terms of Use</span> & <span className="text-info">Privacy Policy</span></label>
+                                <label className="form-check-label text-secondary">I accept the <NavLink to="/signup" className="text-decoration-none text-info">Terms of Use</NavLink> & <NavLink to="/signup" className="text-decoration-none text-info">Privacy Policy</NavLink></label>
                             </div>
                             <button onClick={clickHandle} className="btn btn-primary w-100">Submit</button>
                         </form>

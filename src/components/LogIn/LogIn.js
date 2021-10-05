@@ -21,9 +21,8 @@ const LogIn = () => {
                             <div className="mb-3">
                                 <input type="password" className="form-control" placeholder="Password" />
                             </div>
-                            <div className="mb-3 form-check text-start">
-                                <input type="checkbox" className="form-check-input" />
-                                <label className="form-check-label text-info">Forgot Password ?</label>
+                            <div className="mb-3 text-start">
+                                <NavLink to="/login" className="text-decoration-none text-info">Forgot Password ?</NavLink>
                             </div>
                             <button onClick={clickHandle} className="btn btn-primary w-100">Log In</button>
                         </form>

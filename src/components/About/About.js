@@ -6,7 +6,7 @@ import './About.css'
 const About = () => {
     return (
         // about page 
-        <div className="about-bg pb-5">
+        <div className="about-bg pb-5 pt-3">
             <div className="container">
                 <div className="margin-top-nav"></div>
                 <h1>About <span className="text-info fw-bold"><span className="bg-info text-white pb-2 px-3 rounded-circle">e</span>-Learn</span></h1>
