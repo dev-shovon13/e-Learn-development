@@ -26,7 +26,7 @@ const ServicesShort = () => {
                 }
             </div>
             <NavLink to="/services">
-                <button className="btn btn-outline-info mt-5">See More</button>
+                <button className="btn btn-outline-primary mt-5">See More</button>
             </NavLink>
         </div>
     );
