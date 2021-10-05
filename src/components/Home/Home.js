@@ -3,11 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import location from '../../images/location.png'
 import institute from '../../images/institute.png'
-import Services from '../Services/Services';
 import Mentors from '../Mentors/Mentors';
 import About from '../About/About';
 import Benefits from '../Benefits/Benefits';
 import './Home.css'
+import ServicesShort from '../ServicesShort/ServicesShort';
 
 // this is the container of all pages 
 const Home = () => {
@@ -33,7 +33,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Services />
+            <ServicesShort />
             <Mentors />
             <About />
             <Benefits />

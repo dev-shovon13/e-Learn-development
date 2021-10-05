@@ -8,6 +8,21 @@
 .bg-gradiant{
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 }
+.f-courses:hover{
+    color: rgb(172, 0, 0) !important;
+    cursor: pointer;
+}
+.f-mentor:hover{
+    color: rgb(10, 89, 192) !important;
+    cursor: pointer;
+}
+.f-body:hover .f-icon{
+    color: rgb(6, 133, 38);
+}
+.f-body:hover .f-text{
+    color: rgb(0, 0, 0) !important;
+    cursor: pointer;
+}
 .icon-1:hover{
 color: #009DED;
 }

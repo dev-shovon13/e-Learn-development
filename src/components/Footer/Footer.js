@@ -13,42 +13,42 @@ const Footer = () => {
                     <div className="col mb-3 mb-md-0">
                         <h5>CONTACT INFO</h5>
                         <p className="w-75 text-secondary">A powerhouse of cutting-edge education, research & teaching in The World</p>
-                        <div className="d-flex align-items-center mb-2">
-                            <FontAwesomeIcon icon={faHome} />
-                            <p className="text-secondary ms-3 mb-0">Wari, Dhaka-1203, Bangladesh</p>
+                        <div className="d-flex align-items-center mb-2 f-body">
+                            <FontAwesomeIcon icon={faHome} className="f-icon" />
+                            <p className="text-secondary ms-3 mb-0 f-text">Wari, Dhaka-1203, Bangladesh</p>
                         </div>
-                        <div className="d-flex align-items-center mb-2">
-                            <FontAwesomeIcon icon={faPhoneAlt} />
-                            <p className="text-secondary ms-3 mb-0">+88 017 123429847</p>
+                        <div className="d-flex align-items-center mb-2 f-body">
+                            <FontAwesomeIcon icon={faPhoneAlt} className="f-icon" />
+                            <p className="text-secondary ms-3 mb-0 f-text">+88 017 123429847</p>
                         </div>
-                        <div className="d-flex align-items-center mb-2">
-                            <FontAwesomeIcon icon={faEnvelope} />
-                            <p className="text-secondary ms-3 mb-0">devshovon13@example.com</p>
+                        <div className="d-flex align-items-center mb-2 f-body">
+                            <FontAwesomeIcon icon={faEnvelope} className="f-icon" />
+                            <p className="text-secondary ms-3 mb-0 f-text">devshovon13@example.com</p>
                         </div>
                     </div>
                     <div className="col mb-3 mb-md-0">
                         <h5>OUR COURSES</h5>
-                        <p className="mb-2 text-secondary">Angular Development</p>
-                        <p className="mb-2 text-secondary">Node.js Development</p>
-                        <p className="mb-2 text-secondary">React Development</p>
-                        <p className="mb-2 text-secondary">Laravel Development</p>
-                        <p className="mb-2 text-secondary">PHP Development</p>
-                        <p className="mb-2 text-secondary">UI/UX Designing</p>
+                        <p className="mb-2 text-secondary f-courses">Node.js Development</p>
+                        <p className="mb-2 text-secondary f-courses">Angular Development</p>
+                        <p className="mb-2 text-secondary f-courses">React Development</p>
+                        <p className="mb-2 text-secondary f-courses">Laravel Development</p>
+                        <p className="mb-2 text-secondary f-courses">PHP Development</p>
+                        <p className="mb-2 text-secondary f-courses">UI/UX Designing</p>
                     </div>
                     <div className="col">
                         <h5 className="text-center">OUR Instructors</h5>
                         <div className="d-flex justify-content-between">
                             <div >
-                                <p className="mb-2 text-secondary">Dan Cederholm</p>
-                                <p className="mb-2 text-secondary">Dave Shea</p>
-                                <p className="mb-2 text-secondary">Rachel Andrew</p>
-                                <p className="mb-2 text-secondary">Veerle Pieters</p>
+                                <p className="mb-2 text-secondary f-mentor">Dan Cederholm</p>
+                                <p className="mb-2 text-secondary f-mentor">Dave Shea</p>
+                                <p className="mb-2 text-secondary f-mentor">Rachel Andrew</p>
+                                <p className="mb-2 text-secondary f-mentor">Veerle Pieters</p>
                             </div>
                             <div >
-                                <p className="mb-2 text-secondary">Robert Piterson</p>
-                                <p className="mb-2 text-secondary">Jeffrey Zeldman</p>
-                                <p className="mb-2 text-secondary">Simon Collison</p>
-                                <p className="mb-2 text-secondary">John Smilga</p>
+                                <p className="mb-2 text-secondary f-mentor">Robert Piterson</p>
+                                <p className="mb-2 text-secondary f-mentor">Jeffrey Zeldman</p>
+                                <p className="mb-2 text-secondary f-mentor">Simon Collison</p>
+                                <p className="mb-2 text-secondary f-mentor">John Smilga</p>
                             </div>
                         </div>
                     </div>

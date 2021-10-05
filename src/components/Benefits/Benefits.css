@@ -5,8 +5,17 @@
     background-size: cover;
     margin: auto;
 }
-.benefit-img{
+.benefit-img-1,.benefit-img-2,.benefit-img-3{
     height: 150px;
     width: 150px;
     margin: 0 auto;
+}
+.benefit-img-1{
+    background-color: #407BFF;
+}
+.benefit-img-2{
+    background-color: #83498C;
+}
+.benefit-img-3{
+    background-color: #FE7663;
 }

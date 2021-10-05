@@ -5,7 +5,7 @@
     "instructor":"Front End Web Development",
     "img":"https://i.ibb.co/rfRWmLd/developer-1.jpg",
     "price":10,
-    "location":"Sydney"
+    "location":"Sydney, Australia"
   },
   {
     "id":2,
@@ -13,7 +13,7 @@
     "instructor":"Node.js Development",
     "img":"https://i.ibb.co/7kzyfTL/developer-2.jpg",
     "price":60,
-    "location":"Winnipeg"
+    "location":"Winnipeg, Canada"
   },
   {
     "id":3,
@@ -21,7 +21,7 @@
     "instructor":"React Development",
     "img":"https://i.ibb.co/p2SDS01/developer-3.jpg",
     "price":80,
-    "location":"New York"
+    "location":"New York, USA"
   },
   {
     "id":4,
@@ -29,7 +29,7 @@
     "instructor":"Angular Development",
     "img":"https://i.ibb.co/7rm86Gb/developer-4.jpg",
     "price":60,
-    "location":"London"
+    "location":"London, UK"
   },
   {
     "id":5,
@@ -37,7 +37,7 @@
     "instructor":"UI/UX Designing",
     "img":"https://i.ibb.co/BNzF2SC/developer-5.jpg",
     "price":40,
-    "location":"Toronto"
+    "location":"Toronto, Canada"
   },
   {
     "id":6,
@@ -45,7 +45,7 @@
     "instructor":"Digital Marketing",
     "img":"https://i.ibb.co/F6mwj7D/developer-6.jpg",
     "price":30,
-    "location":"Munich"
+    "location":"Munich, Germany"
   },
   {
     "id":7,
@@ -53,7 +53,7 @@
     "instructor":"PHP Development",
     "img":"https://i.ibb.co/RHZ6dTG/developer-1.jpg",
     "price":60,
-    "location":"Calgary"
+    "location":"Calgary, Canada"
   },
   {
     "id":8,
@@ -61,6 +61,6 @@
     "instructor":"Laravel Development",
     "img":"https://i.ibb.co/MVmhP7q/developer-8.jpg",
     "price":75,
-    "location":"Paris"
+    "location":"Paris, France"
   }
 ]

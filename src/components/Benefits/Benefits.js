@@ -18,22 +18,22 @@ const Benefits = () => {
                     {/* card section start*/}
                     <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 text-dark g-4">
                         <div className="col">
-                            <div class="card h-100  p-3 bg-white rounded ">
-                                <img src={benefit1} alt="" className="p-2 rounded-circle border border-2 mb-3 benefit-img" />
+                            <div className="card h-100  p-3 bg-white rounded ">
+                                <img src={benefit1} alt="" className="p-2 rounded-circle border border-3 mb-3 benefit-img-1 " />
                                 <h4>Sign up</h4>
                                 <p className="w-75 mx-auto mt-1 text-secondary">Are you looking to join online Learning? Now it's very simple, Now Sign up</p>
                             </div>
                         </div>
                         <div className="col">
-                            <div class="card h-100  p-3 bg-white rounded ">
-                                <img src={benefit2} alt="" className="p-2 rounded-circle border border-2 mb-3 benefit-img" />
+                            <div className="card h-100  p-3 bg-white rounded ">
+                                <img src={benefit2} alt="" className="p-2 rounded-circle border border-3 mb-3 benefit-img-2" />
                                 <h4>Collaborate</h4>
                                 <p className="w-75 mx-auto mt-1 text-secondary">Collaborate on your own timing, by scheduling with mentor booking</p>
                             </div>
                         </div>
                         <div className="col">
-                            <div class="card h-100  p-3 bg-white rounded ">
-                                <img src={benefit3} alt="" className="p-2 rounded-circle border border-2 mb-3 benefit-img" />
+                            <div className="card h-100  p-3 bg-white rounded ">
+                                <img src={benefit3} alt="" className="p-2 rounded-circle border border-3 mb-3 benefit-img-3" />
                                 <h4>Improve & Get Back</h4>
                                 <p className="w-75 mx-auto mt-1 text-secondary">you can gather different skill set, and you can become mentor too</p>
                             </div>
