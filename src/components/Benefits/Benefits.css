@@ -4,6 +4,7 @@
     background-position: center;
     background-size: cover;
     margin: auto;
+    background-attachment: fixed;
 }
 .benefit-img-1,.benefit-img-2,.benefit-img-3{
     height: 150px;
